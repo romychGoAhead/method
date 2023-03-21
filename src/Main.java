@@ -68,10 +68,10 @@ public class Main {
         if (distance < 20) {
             System.out.println("Потребуется дней: " + deliveryPeriod1);
             return 1;
-        } else if (distance >= 20 && distance < 60) {
+        } else if (distance < 60) {
             System.out.println("Потребуется дней: " + deliveryPeriod2);
             return 2;
-        } else if (distance >= 60 && distance < 100) {
+        } else if (distance < 100) {
             System.out.println("Потребуется дней: " + deliveryPeriod3);
             return 3;
         } else {
